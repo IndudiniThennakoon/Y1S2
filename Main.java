@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Arrays;
 class Main {
   public static void main(String[] args) {
     
@@ -31,6 +31,7 @@ class Main {
 
 		// userInput
 
+		/*
 		System.out.println("Enter length: ");
 		Scanner myscanner = new Scanner(System.in);
 		int length = myscanner.nextInt();
@@ -42,6 +43,40 @@ class Main {
 
 		System.out.println("Perimeter: " + perimeter);
 
+		*/
+
+		//  Ex: 01
+
+		int arr[] = new int[3];
+		int max = 0;
+		int min = 0;
+		Scanner myscanner = new Scanner(System.in);
+		for (int i = 0; i <3; i ++)
+		{
+			System.out.print("Enter Integer: ");
+			arr[i] = myscanner.nextInt();
+		}
+	
+		for(int k = 0 ; k <3 ; k++){
+			if(max < arr[k]){ 
+				max = arr[k];
+		}
+
+		min = arr[0]; 
+
+		for(int l = 0 ; l<3 ; l++){
+			if(min > arr[l]){ 
+				min = arr[l]; 
+			}
+		}
+
+		
+
+		
+	
+		System.out.println("Max: " + max);
+		System.out.println("Min: " + min);
+		
 		
 		
 
