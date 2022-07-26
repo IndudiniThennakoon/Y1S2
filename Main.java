@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     
@@ -15,6 +17,7 @@ class Main {
 
 		// variable
 
+		/*
 		int no = 50;
 		long population = 7000000000000L;
 		double salary = 4500.64;
@@ -24,6 +27,23 @@ class Main {
 		System.out.println("population : " + population);
 		System.out.println("salary : " + salary);
 		System.out.println("rate : " + rate);
+		*/
+
+		// userInput
+
+		System.out.println("Enter length: ");
+		Scanner myscanner = new Scanner(System.in);
+		int length = myscanner.nextInt();
+
+		System.out.println("Enter width: ");
+		int width = myscanner.nextInt();
+
+		int perimeter = 2 * ( length + width );
+
+		System.out.println("Perimeter: " + perimeter);
+
+		
+		
 
   }
 }
