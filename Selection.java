@@ -69,23 +69,33 @@ class Main {
 
 		//  do-while
 
-		int r = 1;
+		// int r = 1;
 
-		do{
-			System.out.println(r);
-			r++;
-		}while ( r < 100);{
-			System.out.println();
+		// do{
+		// 	System.out.println(r);
+		// 	r++;
+		// }while ( r < 100);{
+		// 	System.out.println();
 
-			r =50;
+		// 	r =50;
 
-		}
+		// }
 		
-		do{
-			System.out.println(r + " ");
-			r -= 5;
+		// do{
+		// 	System.out.println(r + " ");
+		// 	r -= 5;
 			
-		}while (r > 0);
-	} 
+		// }while (r > 0);
 
+		//  for loop
+
+		for(int r =1; r < 100; r++;){
+			System.out.println(r);
+		}
+		System.out.println();
+
+		for(int r = 50; r > 0; r -= 5){
+			System.out.println(r + " ");
+		}
+	} 
 }
