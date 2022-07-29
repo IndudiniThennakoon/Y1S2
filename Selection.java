@@ -27,24 +27,44 @@ class Main {
 
 		// switch
 
-		System.out.println("Enter 1 -3 any number: ");
-		Scanner myscanner = new Scanner(System.in);
+		// System.out.println("Enter 1 -3 any number: ");
+		// Scanner myscanner = new Scanner(System.in);
 
-		int opt = myscanner.nextInt();
+		// int opt = myscanner.nextInt();
 
-		switch (opt){
-			case 1 : 
-				System.out.println("Malabe campus");
-				break;	
-			case 2 :
-				System.out.println("Metro Campus");
-				break;	
-			case 3 :
-				System.out.println("Matara campus");
-				break;
-			default:
-				System.out.println("Invalid option");
+		// switch (opt){
+		// 	case 1 : 
+		// 		System.out.println("Malabe campus");
+		// 		break;	
+		// 	case 2 :
+		// 		System.out.println("Metro Campus");
+		// 		break;	
+		// 	case 3 :
+		// 		System.out.println("Matara campus");
+		// 		break;
+		// 	default:
+		// 		System.out.println("Invalid option");
 				
+		// }
+
+
+		// while
+
+
+		int r = 1;
+
+		while(r < 100){
+			System.out.println(r);
+			r++;
+		}
+		System.out.println();
+
+		r =50;
+
+		while (r > 0){
+			System.out.println(r + " ");
+			r -= 5;
+			
 		}
 	}
 
