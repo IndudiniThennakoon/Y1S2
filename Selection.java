@@ -1,10 +1,6 @@
 class Main {
   public static void main(String[] args) {
 
-		System.out.println("5 . Kurunegala");
-		System.out.println("6 . Jaffna");
-		System.out.println("0 . Exit");
-
 		System.out.println("Enter 1 -5 any number: ");
 		Scanner myscanner = new Scanner(System.in);
 
