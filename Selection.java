@@ -51,21 +51,41 @@ class Main {
 		// while
 
 
+		// int r = 1;
+
+		// while(r < 100){
+		// 	System.out.println(r);
+		// 	r++;
+		// }
+		// System.out.println();
+
+		// r =50;
+
+		// while (r > 0){
+		// 	System.out.println(r + " ");
+		// 	r -= 5;
+			
+		// }
+
+		//  do-while
+
 		int r = 1;
 
-		while(r < 100){
+		do{
 			System.out.println(r);
 			r++;
+		}while ( r < 100);{
+			System.out.println();
+
+			r =50;
+
 		}
-		System.out.println();
-
-		r =50;
-
-		while (r > 0){
+		
+		do{
 			System.out.println(r + " ");
 			r -= 5;
 			
-		}
-	}
+		}while (r > 0);
+	} 
 
 }
