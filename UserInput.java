@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays;
+//import java.util.Arrays;
 
 class UserInput{
 	public static void main(String[] args) {
@@ -52,29 +52,51 @@ class UserInput{
 
 		//EX 02 - using for loop
 
-		int arr[] = new int[3];
-		int max = 0;
-		int min = 0;
-		Scanner myscanner = new Scanner(System.in);
-		for (int i = 0; i <3; i ++)
-		{
-			System.out.print("Enter Integer: ");
-			arr[i] = myscanner.nextInt();
-		}
+		// int arr[] = new int[3];
+		// int max = 0;
+		// int min = 0;
+		// Scanner myscanner = new Scanner(System.in);
+		// for (int i = 0; i <3; i ++)
+		// {
+		// 	System.out.print("Enter Integer: ");
+		// 	arr[i] = myscanner.nextInt();
+		// }
 	
-		for(int k = 0 ; k <3 ; k++){
-			if(max < arr[k]){ 
-				max = arr[k];
-		}
+		// for(int k = 0 ; k <3 ; k++){
+		// 	if(max < arr[k]){ 
+		// 		max = arr[k];
+		// }
 
-		min = arr[0]; 
+		// min = arr[0]; 
 
-		for(int l = 0 ; l<3 ; l++){
-			if(min > arr[l]){ 
-				min = arr[l]; 
+		// for(int l = 0 ; l<3 ; l++){
+		// 	if(min > arr[l]){ 
+		// 		min = arr[l]; 
+		// 	}
+		// }
+		// System.out.println("Max: " + max);
+		// System.out.println("Min: " + min);
+
+		// EX 03 - find how many odd and even numbers entered
+
+		int odd = 0;
+		int even = 0;
+		int no =0;
+
+		Scanner myscanner = new Scanner(System.in);
+
+		for(int i = 1; i <= 10; i++){
+			System.out.print("Enter no" + i + " = ");
+			no = myscanner.nextInt();
+			if((no %2) == 0){
+				System.out.println("No = " + no + " is even ");
+				even ++;
+			}else{
+				System.out.println("No = " + no + " is odd ");
+				odd++;
 			}
 		}
-		System.out.println("Max: " + max);
-		System.out.println("Min: " + min);
+		System.out.print("No of Evens = " + even);
+		System.out.print("No of Odd = " + odd);
 	}
 }
