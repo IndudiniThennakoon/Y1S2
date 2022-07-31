@@ -1,4 +1,4 @@
-class Main {
+class Selection {
   public static void main(String[] args) {
 
 
@@ -89,7 +89,7 @@ class Main {
 
 		//  for loop
 
-		for(int r =1; r < 100; r++;){
+		for(int r =1; r < 100; r++){
 			System.out.println(r);
 		}
 		System.out.println();
