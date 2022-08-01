@@ -43,10 +43,15 @@ class Receptionist{
 
 	// calculate bill
 	
-	public double generateBill(int noOfDays){
+	public double generateBill(int noOfDays, string roomType){
+		double luxaryRoomRate = 2000.0;
+		double normalRoomRate = 1000.0;
 		
-		double rate = 2000.0;
-		return (rate * noOfDays);
+		if(roomType == "Luxury"){
+			return (luxaryRoomRate * noOfDays);
+		}else{
+			return (normalRoomRate * noOfDays);
+		}
 	}
 	// setters and getters
 	public void setID(String ID){
