@@ -120,6 +120,8 @@ public class Ex01{
 		room.setRoomNo(10);
 		// room.setAvailble(true);
 		
-		receptionist.checkRoomavailblity(room)
+		receptionist.checkRoomavailblity(room);
+		
+		System.out.println("Your Bill is: " + receptionist.generateBill(20,luxury));
 	}
 }
