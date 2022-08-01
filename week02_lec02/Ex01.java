@@ -79,8 +79,9 @@ class Receptionist{
 	// method check room availbility
 	
 	public void checkRoomavailblity(Room room){
-		
-		if(room.isAvailable()){
+
+		room.setRoomNo(roomNo);
+		if(room.getRoomNo()) == 10{
 			System.out.println("Room is available");
 		}else{
 			System.out.println("Room is not available");
@@ -117,7 +118,7 @@ public class Ex01{
 		Room room = new Room();
 		
 		room.setRoomNo(10);
-		room.setAvailble(true);
+		// room.setAvailble(true);
 		
 		receptionist.checkRoomavailblity(room)
 	}
