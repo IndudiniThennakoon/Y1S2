@@ -78,9 +78,13 @@ class Receptionist{
 
 	// method check room availbility
 	
-	public boolean checkRoomavailblity(Room room){
-		this.room = room;
-		return room.isAvailable();
+	public void checkRoomavailblity(Room room){
+		
+		if(room.isAvailable()){
+			System.out.println("Room is available");
+		}else{
+			System.out.println("Room is not available");
+		}
 	}
 
 	// calculate bill
@@ -107,6 +111,14 @@ class Receptionist{
 public class Ex01{
 
 	public static void main(String[] args){
+		// creat object
+
+		Receptionist receptionist = new Receptionist();
+		Room room = new Room();
 		
+		room.setRoomNo(10);
+		room.setAvailble(true);
+		
+		receptionist.checkRoomavailblity(room)
 	}
 }
