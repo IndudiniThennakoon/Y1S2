@@ -1,5 +1,29 @@
 //  Hospital managment system
 
+class Room{
+	private int roomNo;
+	private boolean isAvailable;
+	
+}
+
+// Setters and getters for Room class
+
+public void setRoomNo(int roomNo) {
+	this.roomNo = roomNo;
+}
+
+public int getRoomNo(){
+	return roomNo;
+}
+
+public boolean isAvailable(){
+	return isAvailble;
+}
+
+public void setAvailble(boolean isAvailable){
+	this.isAvailable = isAvailable;
+}
+
 class Receptionist{
 
 	private string ID;
@@ -10,6 +34,20 @@ class Receptionist{
 	
 }
 
+// implement the method
+
+
+public boolean checkRoomavailblity(int roomNo){
+	
+	if()
+}
+
+public boolean isAvailable(){
+	return true;
+}
+
+
+// setters and getters
 public void setID(String ID){
 	this.ID = ID;
 }
