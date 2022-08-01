@@ -32,34 +32,7 @@ class Receptionist{
 	private int workingHours;
 	private Room room;
 	
-// implement the method
 
-	// method check room availbility
-	
-	public boolean checkRoomavailblity(Room room){
-		this.room = room;
-		return room.isAvailable();
-	}
-
-	// calculate bill
-	
-	public double generateBill(int noOfDays, string roomType){
-		double luxaryRoomRate = 2000.0;
-		double normalRoomRate = 1000.0;
-		
-		if(roomType == "Luxury"){
-			return (luxaryRoomRate * noOfDays);
-		}else{
-			return (normalRoomRate * noOfDays);
-		}
-	}
-
-	// get customer feeback
-
-	public String getcustomerFeedback(String feedback){
-		return feedback;
-		
-	}
 	// setters and getters
 	public void setID(String ID){
 		this.ID = ID;
@@ -99,7 +72,36 @@ class Receptionist{
 	
 	public int getWorkingHours(){
 		return workingHours;
-	}	
+	}
+
+	// implement the method
+
+	// method check room availbility
+	
+	public boolean checkRoomavailblity(Room room){
+		this.room = room;
+		return room.isAvailable();
+	}
+
+	// calculate bill
+	
+	public double generateBill(int noOfDays, string roomType){
+		double luxaryRoomRate = 2000.0;
+		double normalRoomRate = 1000.0;
+		
+		if(roomType == "Luxury"){
+			return (luxaryRoomRate * noOfDays);
+		}else{
+			return (normalRoomRate * noOfDays);
+		}
+	}
+
+	// get customer feeback
+
+	public String getcustomerFeedback(String feedback){
+		return feedback;
+		
+	}
 }
 
 public class Ex01{
