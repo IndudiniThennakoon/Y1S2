@@ -33,16 +33,21 @@ class Receptionist{
 	private Room room;
 	
 // implement the method
+
+	// method check room availbility
+	
 	public boolean checkRoomavailblity(Room room){
 		this.room = room;
 		return room.isAvailable();
 	}
+
+	// calculate bill
 	
-	public boolean isAvailable(){
-		return true;
+	public double generateBill(int noOfDays){
+		
+		double rate = 2000.0;
+		return (rate * noOfDays);
 	}
-
-
 	// setters and getters
 	public void setID(String ID){
 		this.ID = ID;
