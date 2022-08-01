@@ -53,6 +53,13 @@ class Receptionist{
 			return (normalRoomRate * noOfDays);
 		}
 	}
+
+	// get customer feeback
+
+	public String getcustomerFeedback(String feedback){
+		return feedback;
+		
+	}
 	// setters and getters
 	public void setID(String ID){
 		this.ID = ID;
