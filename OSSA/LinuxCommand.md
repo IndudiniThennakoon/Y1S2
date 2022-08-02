@@ -9,3 +9,4 @@
 | ls | List down the content of current working directory without indetails|
 | ls -al| List down all the content of the current working directory including hidden files |
 | ls -a | List down all the hidden file without indetails |
+| ls -l | List down all the content of files with details including hidden files |
