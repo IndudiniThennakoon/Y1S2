@@ -11,3 +11,4 @@
 | ls -a | List down all the hidden file without indetails |
 | ls -l | List down all the content of files with details including hidden files |
 | cd .. | Move to parent directory |
+| cd (name of the directory) | Move to one directory forward |
