@@ -23,4 +23,14 @@
 | head -3 (nameOfTheFile) | Displays first 3 digits in file |
 | tail -5 (nameOfTheFile) | Displays last 5 digits in file |
 
-<>
+<br>
+<br>
+
+## File Details
+
+<img align ="center" src ="img/fileDetails.jpg">
+
+<br>
+
+
+
