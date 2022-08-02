@@ -17,3 +17,8 @@
 | cat (nameOfThe Directory) | Creat file |
 | mkdir (nameOfThe Directory) | Create Directory|
 | rmdir | (nameOfThe Directory) | Delete Directory|
+| cp (nameOfTheSourceFile) (nameOfTheNewFile) | Copy content to another file |
+| mv (nameOfTheSourceFile) (nameOfTheNewFile) | Move content to another file |
+| mv (nameOfTheSourceFile) ./  (nameOfTheDirecorty) | Move content to another directory |
+| head -3 (nameOfTheFile) | Displays first 3 digits in file |
+| tail -5 (nameOfTheFile) | Displays last 5 digits in file |
