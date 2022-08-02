@@ -87,7 +87,7 @@
 
 <center>
 
-<img width = "400"  src ="img/hiddenfile.jpg">
+<img width = "400"  src ="img/hiddenFile.jpg">
 
 </center>
 
