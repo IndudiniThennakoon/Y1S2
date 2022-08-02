@@ -12,3 +12,6 @@
 | ls -l | List down all the content of files with details including hidden files |
 | cd .. | Move to parent directory |
 | cd (name of the directory) | Move to one directory forward |
+| vi (nameOfThe Directory) | create files |
+| :wq! | save and exit from the file |
+|
