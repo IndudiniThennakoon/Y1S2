@@ -15,4 +15,5 @@
 | vi (nameOfThe Directory) | Create files |
 | :wq! | save and exit from the file |
 | cat (nameOfThe Directory) | Creat file |
-
+| mkdir (nameOfThe Directory) | Create Directory|
+| rmdir | (nameOfThe Directory) | Delete Directory|
