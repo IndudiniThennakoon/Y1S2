@@ -20,4 +20,5 @@
 | cp (nameOfTheSourceFile) (nameOfTheNewFile) | Copy content to another file |
 | mv (nameOfTheSourceFile) (nameOfTheNewFile) | Move content to another file |
 | mv (nameOfTheSourceFile) ./  (nameOfTheDirecorty) | Move content to another directory |
+| head -3 (nameOfTheFile) | Displays first 3 digits in file |
 
