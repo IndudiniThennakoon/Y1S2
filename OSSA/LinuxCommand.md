@@ -32,5 +32,16 @@
 
 <br>
 
+<center>
 
+| Number | Indications |
+|------- | --- |
+| 1 | File access permisions |
+| 2 | User name |
+| 3 | root name |
+| 4 | Ouput block size |
+| 5 | Date and time that file was modified |
+| 6| File name |
+| 7 | No of links that related to the file |
+</center>
 
