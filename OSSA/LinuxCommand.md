@@ -72,6 +72,11 @@
 <br>
 
 
+**File Access permission related to 3 users**<br>
+ 
+1. User <br>
+2. Group <br>
+3. Other Users <br>
 
 
 
