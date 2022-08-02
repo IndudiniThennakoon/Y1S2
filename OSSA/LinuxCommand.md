@@ -48,3 +48,11 @@
 <br><br>
 
 ## 1 - File Access Permissions
+
+<br>
+
+<center>
+
+<img width = "400"  src ="img/fileAccessPermission.jpg">
+
+</center>
