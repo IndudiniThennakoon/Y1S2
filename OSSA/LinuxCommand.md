@@ -55,4 +55,16 @@
 
 <img width = "400"  src ="img/fileAccessPermission.jpg">
 
+| Number | Indications |
+|------- | --- |
+| 1 | **d** --> Directory <br> **s** --> Soccut <br> **-** --> Regular File|
+| 2 | This first 3 is for the **user**  |
+| 3 | Second 3 is for the **group** |
+| 4 | Last 3 for the the **other users**|
 </center>
+
+
+
+
+
+  
