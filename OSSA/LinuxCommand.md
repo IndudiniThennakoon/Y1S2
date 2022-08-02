@@ -8,3 +8,4 @@
 | who | To get the information about logged in users |
 | ls | List down the content of current working directory without indetails|
 | ls -al| List down all the content of the current working directory including hidden files |
+| ls -a | List down all the hidden file without indetails |
