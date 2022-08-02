@@ -63,6 +63,16 @@
 | 4 | Last 3 for the the **other users**|
 </center>
 
+**In unix system or linux working system there are 3 type of file access permissions**
+
+1. r --> read permission <br>
+2. w --> write permission <br>
+3. x --> execute permission <br>
+   
+<br>
+
+
+
 
 
 
