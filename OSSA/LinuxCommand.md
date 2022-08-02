@@ -19,3 +19,5 @@
 | rmdir | (nameOfThe Directory) | Delete Directory|
 | cp (nameOfTheSourceFile) (nameOfTheNewFile) | Copy content to another file |
 | mv (nameOfTheSourceFile) (nameOfTheNewFile) | Move content to another file |
+| mv (nameOfTheSourceFile) ./  (nameOfTheDirecorty) | Move content to another directory |
+
