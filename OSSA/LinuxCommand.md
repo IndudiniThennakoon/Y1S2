@@ -87,8 +87,10 @@
 
 <center>
 
-<img width = "400"  src ="img/fileName.jpg">
+<img width = "400"  src ="img/hiddenfile.jpg">
 
 </center>
 
-  
+<br>
+
+* Before the file name if we can find the a dot operator **( . )**, it means that file is a hidden file.
