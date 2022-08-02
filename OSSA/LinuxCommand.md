@@ -17,3 +17,4 @@
 | cat (nameOfThe Directory) | Creat file |
 | mkdir (nameOfThe Directory) | Create Directory|
 | rmdir | (nameOfThe Directory) | Delete Directory|
+| cp (nameOfTheSourceFile) (nameOfTheNewFile) | Copy content to another file |
