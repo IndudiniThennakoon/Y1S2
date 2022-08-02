@@ -83,7 +83,12 @@
 
 ## 6 - File Name - Hidden FIles
 
+<br><br>
 
+<center>
 
+<img width = "400"  src ="img/fileName.jpg">
+
+</center>
 
   
