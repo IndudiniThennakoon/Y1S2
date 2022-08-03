@@ -94,3 +94,5 @@
 <br>
 
 * Before the file name if we can find the a dot operator **( . )**, it means that file is a hidden file.
+
+<hr>
