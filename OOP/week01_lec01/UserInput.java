@@ -8,12 +8,12 @@ class UserInput{
 		
 		// System.out.println("Enter length: ");
 		// Scanner myscanner = new Scanner(System.in);
-		// int length = myscanner.nextInt();
+		// float length = myscanner.nextFloat();
 
 		// System.out.println("Enter width: ");
-		// int width = myscanner.nextInt();
+		// float width = myscanner.nextFloat();
 
-		// int perimeter = 2 * ( length + width );
+		// float perimeter = 2 * ( length + width );
 
 		// System.out.println("Perimeter: " + perimeter);
 
