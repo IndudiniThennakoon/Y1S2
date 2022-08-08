@@ -15,20 +15,20 @@ class Room{
 	}
 	
 	public boolean isAvailable(){
-		return isAvailble;
+		return isAvailable;
 	}
 	
-	public void setAvailble(boolean isAvailable){
+	public void setAvailable(boolean isAvailable){
 		this.isAvailable = isAvailable;
 	}
 }
 
 class Receptionist{
 
-	private string ID;
-	private string name;
+	private String ID;
+	private String name;
 	private int age;
-	private string address;
+	private String address;
 	private int workingHours;
 	private Room room;
 	
@@ -38,7 +38,7 @@ class Receptionist{
 		this.ID = ID;
 	}
 	
-	public Strong getID(){
+	public String getID(){
 		return ID;
 	}
 	
@@ -55,7 +55,7 @@ class Receptionist{
 	}
 	
 	public int getAge(){
-		retrun age;
+		return age;
 	}
 	
 	public void setAddress(String address){
@@ -76,12 +76,12 @@ class Receptionist{
 
 	// implement the method
 
-	// method check room availbility
+	// method check room availability
 	
-	public void checkRoomavailblity(Room room){
+	public void checkRoomavailablity(Room room){
 
-		room.setRoomNo(roomNo);
-		if(room.getRoomNo()) == 10{
+//		room.setRoomNo(roomNo);
+		if(room.getRoomNo() == 10){
 			System.out.println("Room is available");
 		}else{
 			System.out.println("Room is not available");
@@ -90,7 +90,7 @@ class Receptionist{
 
 	// calculate bill
 	
-	public double generateBill(int noOfDays, string roomType){
+	public double generateBill(int noOfDays, String roomType){
 		double luxaryRoomRate = 2000.0;
 		double normalRoomRate = 1000.0;
 		
@@ -112,16 +112,16 @@ class Receptionist{
 public class Ex01{
 
 	public static void main(String[] args){
-		// creat object
+		// create object
 
 		Receptionist receptionist = new Receptionist();
 		Room room = new Room();
 		
 		room.setRoomNo(10);
-		// room.setAvailble(true);
+		// room.setAvailable(true);
 		
-		receptionist.checkRoomavailblity(room);
+		receptionist.checkRoomavailablity(room);
 		
-		System.out.println("Your Bill is: " + receptionist.generateBill(20,luxury));
+		System.out.println("Your Bill is: " + receptionist.generateBill(20,"luxury"));
 	}
 }
