@@ -18,3 +18,7 @@
 <img src = "img/dmesg.jpg"> 
 
 * In the most unix or the linux OS we can see some kind of a buffer message print in the terminal once type this command 
+
+<br>
+
+* We can get how long the system has been running in the terminal
