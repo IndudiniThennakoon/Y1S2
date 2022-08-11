@@ -2,3 +2,5 @@
 
 | Command | Output |
 |------- | --- |
+| echo | Type anything in the terminal and print it |
+
