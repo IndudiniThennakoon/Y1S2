@@ -17,3 +17,4 @@
 
 <img src = "img/dmesg.jpg"> 
 
+* In the most unix or the linux OS we can see some kind of a buffer message print in the terminal once type this command 
