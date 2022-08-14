@@ -8,6 +8,10 @@ public class MyMain {
 		//  this r3 object is refering to overload constructor
 		Receptionist r3 = new Receptionist(58, "Induuuudini" );
 		//  this r4 object is refering to overload constructor
+
+		
+		r3.getId();
+		r3.setId(96);
 		
 		boolean res = r1.checkRoomAvailability(45);
 		if (res == true) {

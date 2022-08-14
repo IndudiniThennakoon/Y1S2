@@ -19,21 +19,21 @@ public class Receptionist {
 
 	//	overloaded constructor - way2 
 
-	// public Receptionist(int id, String name, double salary){
-	// 	this.id = id;
-	// 	this.name = name;
-	// 	this.salary = salary;
-		
-	// }
-
-	//	overloaded constructor - way3 
-
 	public Receptionist(int id, String name, double salary){
 		this.id = id;
 		this.name = name;
-		
+		this.salary = salary;
 		
 	}
+
+	//	overloaded constructor - way3 
+
+	// public Receptionist(int id, String name, double salary){
+	// 	this.id = id;
+	// 	this.name = name;
+		
+		
+	// }
 	
 	public  boolean checkRoomAvailability( int roomNo) {
 		return true;
@@ -48,6 +48,30 @@ public class Receptionist {
 		
 	}
 
+	//	 getter (accessor) for id  
+	public int getId() {
+		return id;
+	}
+// setter (mutator) for id
+	public void setId(int id) {
+		this.id = id;
+	}
+//	 getter (accessor) for name  
+	public String getName() {
+		return name;
+	}
+	// setter (mutator) for name
+	public void setName(String name) {
+		this.name = name;
+	}
+//	 getter (accessor) for salary  
+	public double getSalary() {
+		return salary;
+	}
+	// setter (mutator) for salary
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
 	
 	
 	
