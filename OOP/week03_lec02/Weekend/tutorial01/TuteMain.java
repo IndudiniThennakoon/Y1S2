@@ -4,7 +4,6 @@ public class TuteMain {
 
 		Student ob = new Student(1,"Indu", 75.36, 85.14, 45.98);
 		
-		
-
-
+		ob.calAvg();
+	
 }
