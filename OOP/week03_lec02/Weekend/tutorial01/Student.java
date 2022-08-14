@@ -1,7 +1,11 @@
 class Student{
+
+	private int id;
+	private String  name;
 	private float marks1;
 	private float marks2;
 	private float marks3;
+	private double avg;
 
 	// (1) (a)
 	public Student(double marks1, double marks2, double marks3) {
