@@ -10,6 +10,14 @@ public class Receptionist {
 		salary = 0.0; 
 	}
 
+	//	overloaded constructor 
+	
+	public Receptionist(int pid, String pname, double psalary){
+		id = pid;
+		name = pname;
+		salary = psalary;
+		
+	}
 	
 	public  boolean checkRoomAvailability( int roomNo) {
 		return true;
