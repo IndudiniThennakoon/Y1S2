@@ -10,12 +10,23 @@ public class Receptionist {
 
 	//	overloaded constructor 
 	
-	public Receptionist(int pid, String pname, double psalary){
-		id = pid;
-		name = pname;
-		salary = psalary;
+	// public Receptionist(int pid, String pname, double psalary){
+	// 	id = pid;
+	// 	name = pname;
+	// 	salary = psalary;
+		
+	// }
+
+	//	overloaded constructor - way2 
+
+	public Receptionist(int id, String name, double salary){
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
 		
 	}
+
+	
 	
 	public  boolean checkRoomAvailability( int roomNo) {
 		return true;
