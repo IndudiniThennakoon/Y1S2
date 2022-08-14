@@ -2,7 +2,7 @@ public class MyMain {
 	public static void main(String[] args) {
 		Receptionist r1 = new Receptionist();
 		
-		
+		Receptionist r2 = new Receptionist(56, "Indu" , 25000.00);
 		boolean res = r1.checkRoomAvailability(45);
 		if (res == true) {
 			System.out.println("Room is available");
