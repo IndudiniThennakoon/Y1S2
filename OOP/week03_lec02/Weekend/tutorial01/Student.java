@@ -10,7 +10,10 @@ class Student{
 		this.marks2 = marks2;
 		this.marks3 = marks3;
 	}
-	
+
+	public void calAvg() {
+		this.avg = (this.marks1 + this.marks2 + this.marks3)/3.0;
+	}
 	
 }
 
