@@ -19,14 +19,21 @@ public class Receptionist {
 
 	//	overloaded constructor - way2 
 
+	// public Receptionist(int id, String name, double salary){
+	// 	this.id = id;
+	// 	this.name = name;
+	// 	this.salary = salary;
+		
+	// }
+
+	//	overloaded constructor - way3 
+
 	public Receptionist(int id, String name, double salary){
 		this.id = id;
 		this.name = name;
-		this.salary = salary;
+		
 		
 	}
-
-	
 	
 	public  boolean checkRoomAvailability( int roomNo) {
 		return true;

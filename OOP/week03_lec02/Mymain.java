@@ -6,6 +6,9 @@ public class MyMain {
 		//  this r2 object is refering to overload constructor
 		Receptionist r3 = new Receptionist(5, "Induuuu" , 250000.00);
 		//  this r3 object is refering to overload constructor
+		Receptionist r3 = new Receptionist(58, "Induuuudini" );
+		//  this r4 object is refering to overload constructor
+		
 		boolean res = r1.checkRoomAvailability(45);
 		if (res == true) {
 			System.out.println("Room is available");
