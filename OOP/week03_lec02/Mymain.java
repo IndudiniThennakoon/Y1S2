@@ -3,6 +3,7 @@ public class MyMain {
 		Receptionist r1 = new Receptionist();
 		
 		Receptionist r2 = new Receptionist(56, "Indu" , 25000.00);
+		//  this r2 object is refering to overload constructor
 		boolean res = r1.checkRoomAvailability(45);
 		if (res == true) {
 			System.out.println("Room is available");

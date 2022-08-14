@@ -5,9 +5,7 @@ public class Receptionist {
 	
 	//	default constructor
 	public Receptionist() {
-		id = 0;
-		name = null;
-		salary = 0.0; 
+		//  it's not mandatory to add the variables it will be automatically added
 	}
 
 	//	overloaded constructor 
