@@ -15,5 +15,9 @@ public class Student extends Person {
 		// if we are not adding super() compiler will added it automatically. it means compiler will added super default constructor
 //		 then it belongs to parent class default constructor and then print the person class default constructor and then print the sub class overloaded constructor
 		
-		super
+		super(NIC,name);
+		// if we add the super (NIC, name) compiler will not added default super constructor since we already added parameterized super constructor
+//		since we added parameterized super constructor it will print person class overloaded constructor and then it will print sub class overloaded cinstructor
+		
+		System.out.println(" Student Overloaded");
 }
