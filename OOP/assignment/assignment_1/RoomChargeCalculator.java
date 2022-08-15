@@ -79,26 +79,34 @@ class RoomChargeCalculator {
 		}else {
 			System.out.println("\nNo additional charges\n");
 		}
-	
+
+	System.out.println("Total : " + total);
 	}
 
-	public void getChargeStandardSingle(boolean parking, boolean ac, boolean wifi) {
-
-		fixedFee = 2000;
+	public void getChargeStandardSingle(boolean parking,boolean ac,boolean wifi) {
+		
+		fixedFee = 3000;
+		 
 		total = fixedFee;
-
+		 
 		if (parking) {
-			this.parking = 200;
+			this.parking = 200;	
+			total += this.parking;
 		}
-
-		if (ac) {
+		 
+		if(ac) {
 			this.ac = 500;
+			total += this.ac;
 		}
-
+			 
 		if (wifi) {
-			this.wifi = 100;
-		} else {
+			this.wifi = 200;
+			total += this.wifi;
+		 
+		}else {
 			System.out.println("\nNo additional charges\n");
 		}
-	}	
+		 
+		System.out.println("Total : " + total);
+	}
 }
