@@ -61,5 +61,12 @@ public class Main {
 
 				break;
 
+			case 3:
+				System.out.println("Additional Chargers:  ");
+				System.out.println("Parking = 200\nAC = 500\nWifi =100\n");
+				System.out.println("Please enter only true or false");
+
+				break;
+
 		}
 }
