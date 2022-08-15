@@ -80,6 +80,10 @@ public class Main {
 			case 4: 
 				break;
 
+			default:
+				System.out.println("\nInvaild Input!!! Have a nice day!!!");
+				break;
+
 
 		}
 }
