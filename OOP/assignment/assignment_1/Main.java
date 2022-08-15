@@ -42,7 +42,17 @@ public class Main {
 				System.out.print("Wifi : ");
 				wifi = myscanner.nextBoolean();
 
+				rm.getChargeDeluxDouble(balcony, parking, tv, kitchen, wifi);
 			break;
+
+			case 2:
+				System.out.println("Additional Chargers:  ");
+				System.out.println("Parking = 200\nKitchen = 500\nGarden =200\n");
+				System.out.println("Please enter only true or false");
+
+				
+
+				break;
 
 		}
 }
