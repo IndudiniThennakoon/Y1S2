@@ -64,4 +64,23 @@ class RoomChargeCalculator {
 		 }
 
 	}
+
+	public void getChargeStandardSingle(boolean parking, boolean ac, boolean wifi) {
+
+		fixedFee = 2000;
+
+		if (parking) {
+			this.parking = 200;
+		}
+
+		if (ac) {
+			this.ac = 500;
+		}
+
+		if (wifi) {
+			this.wifi = 100;
+		} else {
+			System.out.println("\nNo additional charges\n");
+		}
+	}	
 }
