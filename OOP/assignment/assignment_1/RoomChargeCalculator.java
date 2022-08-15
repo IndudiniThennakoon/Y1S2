@@ -58,24 +58,28 @@ class RoomChargeCalculator {
 	}
 	public void getChargeStandardFamily(boolean parking,boolean kitchen,boolean garden) {
 		
-		 fixedFee = 3000;
-		 total = fixedFee;
-		
+		fixedFee = 3000;
+		 
+		total = fixedFee;
+		 
 		 if (parking) {
 			this.parking = 200;	
-		 }
+			total += this.parking;
+		}
 		 
-		 if(kitchen) {
-			 this.kitchen = 500;
-		 }
+		if(kitchen) {
+			this.kitchen = 500;
+			total += this.kitchen;
+		}
 			 
-		 if (garden) {
-			 this.garden = 200;
+		if (garden) {
+			this.garden = 200;
+			total += this.garden;
 		 
-		 }else {
-			 System.out.println("\nNo additional charges\n");
-		 }
-
+		}else {
+			System.out.println("\nNo additional charges\n");
+		}
+	
 	}
 
 	public void getChargeStandardSingle(boolean parking, boolean ac, boolean wifi) {
