@@ -72,6 +72,8 @@ public class Main {
 				ac = myscanner.nextBoolean();
 				System.out.print("Garden : ");
 				wifi = myscanner.nextBoolean();
+
+				rm.getChargeStandardSingle(parking, ac, wifi);
 				
 				break;
 
