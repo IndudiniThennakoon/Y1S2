@@ -66,6 +66,13 @@ public class Main {
 				System.out.println("Parking = 200\nAC = 500\nWifi =100\n");
 				System.out.println("Please enter only true or false");
 
+				System.out.print("Parking : ");
+				parking = myscanner.nextBoolean();
+				System.out.print("Kitchen : ");
+				ac = myscanner.nextBoolean();
+				System.out.print("Garden : ");
+				wifi = myscanner.nextBoolean();
+				
 				break;
 
 		}
