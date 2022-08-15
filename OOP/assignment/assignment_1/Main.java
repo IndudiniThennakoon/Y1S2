@@ -3,28 +3,26 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		RoomChargeCalculator rm = new RoomChargeCalculator();
+		try {
 
-		System.out.println("Select the Room Category\n");
+			RoomChargeCalculator rm = new RoomChargeCalculator();
+
+			System.out.println("Select the Room Category\n");
 
 			System.out.println("1 - Delux-Double\n2 - Standard-Family\n3 - Standard-Single\n4 - Quit");
 
-		System.out.println("Select the Room Category\n");
+			Scanner myscanner = new Scanner(System.in);
+			int category = myscanner.nextInt();
 
-		System.out.println("1 - Delux-Double\n2 - Standard-Family\n3 - Standard-Single\n4 - Quit");
+			boolean balcony = false;
+			boolean parking = false;
+			boolean tv = false;
+			boolean wifi = false;
+			boolean kitchen = false;
+			boolean garden = false;
+			boolean ac = false;
 
-		Scanner myscanner = new Scanner(System.in);
-		int category = myscanner.nextInt();
-
-		boolean balcony = false;
-		boolean parking = false;
-		boolean tv = false;
-		boolean wifi = false;
-		boolean kitchen = false;
-		boolean garden = false;
-		boolean ac = false;
-		
-		switch (category) {
+			switch (category) {
 
 			case 1:
 				System.out.println("Additional Chargers:  ");
@@ -43,7 +41,8 @@ public class Main {
 				wifi = myscanner.nextBoolean();
 
 				rm.getChargeDeluxDouble(balcony, parking, tv, kitchen, wifi);
-			break;
+
+				break;
 
 			case 2:
 				System.out.println("Additional Chargers:  ");
@@ -56,7 +55,7 @@ public class Main {
 				kitchen = myscanner.nextBoolean();
 				System.out.print("Garden : ");
 				garden = myscanner.nextBoolean();
-				 
+
 				rm.getChargeStandardFamily(parking, kitchen, garden);
 
 				break;
@@ -74,9 +73,9 @@ public class Main {
 				wifi = myscanner.nextBoolean();
 
 				rm.getChargeStandardSingle(parking, ac, wifi);
-				
-				break;
 
+				break;
+				
 			case 4: 
 				break;
 
@@ -84,6 +83,11 @@ public class Main {
 				System.out.println("\nInvaild Input!!! Have a nice day!!!");
 				break;
 
+			}
+
+		} catch (Exception exp) {
+			System.out.println("Please enter valid input");
 
 		}
+	}
 }
