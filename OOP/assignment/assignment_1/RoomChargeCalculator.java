@@ -8,7 +8,7 @@ class RoomChargeCalculator {
 	private double wifi;
 	private double garden;
 	private double ac;
-	
+	private double total;
 
 	public RoomChargeCalculator() {
 		this.fixedFee = fixedFee;
@@ -19,12 +19,13 @@ class RoomChargeCalculator {
 		this.wifi = wifi;
 		this.garden = garden;
 		this.ac = ac;
+		this.total = total;
 	}
 
 	public void getChargeDeluxDouble(boolean balcony,boolean parking,boolean tv,boolean kitchen,boolean wifi) {
 		
 		 fixedFee = 5000;
-		 
+		 total = fixedFee;
 		 
 		 if(balcony) {
 			 this.balcony = 500;
@@ -52,7 +53,8 @@ class RoomChargeCalculator {
 	public void getChargeStandardFamily(boolean parking,boolean kitchen,boolean garden) {
 		
 		 fixedFee = 3000;
-		 
+		 total = fixedFee;
+		
 		 if (parking) {
 			this.parking = 200;	
 		 }
@@ -73,6 +75,7 @@ class RoomChargeCalculator {
 	public void getChargeStandardSingle(boolean parking, boolean ac, boolean wifi) {
 
 		fixedFee = 2000;
+		total = fixedFee;
 
 		if (parking) {
 			this.parking = 200;
