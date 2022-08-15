@@ -57,7 +57,7 @@ public class Main {
 				System.out.print("Garden : ");
 				garden = myscanner.nextBoolean();
 				 
-				
+				rm.getChargeStandardFamily(parking, kitchen, garden);
 
 				break;
 
