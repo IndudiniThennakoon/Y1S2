@@ -16,12 +16,33 @@ public class Main {
 		Scanner myscanner = new Scanner(System.in);
 		int category = myscanner.nextInt();
 
+		boolean balcony = false;
+		boolean parking = false;
+		boolean tv = false;
+		boolean wifi = false;
+		boolean kitchen = false;
+		boolean garden = false;
+		boolean ac = false;
+		
 		switch (category) {
 
 			case 1:
 				System.out.println("Additional Chargers:  ");
 				System.out.println("Balcony = 500 \nParking = 200\nTV = 200\nKitchen = 1000\nWifi =100\n");
 				System.out.println("Please enter true or false");
+
+				System.out.print("Balcony : ");
+				balcony = myscanner.nextBoolean();
+				System.out.print("Parking : ");
+				parking = myscanner.nextBoolean();
+				System.out.print("TV : ");
+				tv = myscanner.nextBoolean();
+				System.out.print("Kitchen : ");
+				kitchen = myscanner.nextBoolean();
+				System.out.print("Wifi : ");
+				wifi = myscanner.nextBoolean();
+
+			break;
 
 		}
 }
