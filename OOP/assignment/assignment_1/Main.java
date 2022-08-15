@@ -50,6 +50,13 @@ public class Main {
 				System.out.println("Parking = 200\nKitchen = 500\nGarden =200\n");
 				System.out.println("Please enter only true or false");
 
+				System.out.print("Parking : ");
+				parking = myscanner.nextBoolean();
+				System.out.print("Kitchen : ");
+				kitchen = myscanner.nextBoolean();
+				System.out.print("Garden : ");
+				garden = myscanner.nextBoolean();
+				 
 				
 
 				break;
