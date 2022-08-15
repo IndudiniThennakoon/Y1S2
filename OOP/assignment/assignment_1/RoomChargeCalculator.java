@@ -43,4 +43,25 @@ class RoomChargeCalculator {
 			 System.out.println("\nNo additional charges");
 		 }
 	}
+
+	public void getChargeStandardFamily(boolean parking,boolean kitchen,boolean garden) {
+		
+		 fixedFee = 3000;
+		 
+		 if (parking) {
+			this.parking = 200;	
+		 }
+		 
+		 if(kitchen) {
+			 this.kitchen = 500;
+		 }
+			 
+		 if (garden) {
+			 this.garden = 200;
+		 
+		 }else {
+			 System.out.println("\nNo additional charges\n");
+		 }
+
+	}
 }
