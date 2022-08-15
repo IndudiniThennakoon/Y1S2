@@ -51,9 +51,11 @@ class RoomChargeCalculator {
 			this.wifi = 100;
 			total += this.wifi;
 		}else {
-			System.out.println("\nNo additional charges");
+			 System.out.println("\nNo additional charges");
 		}
-
+		 
+		System.out.println("Total : " + total);
+	}
 	public void getChargeStandardFamily(boolean parking,boolean kitchen,boolean garden) {
 		
 		 fixedFee = 3000;
