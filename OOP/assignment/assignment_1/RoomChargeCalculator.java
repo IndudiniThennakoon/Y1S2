@@ -6,6 +6,9 @@ class RoomChargeCalculator {
 	private double tv;
 	private double kitchen;
 	private double wifi;
+	private double garden;
+	private double ac;
+	
 
 	public RoomChargeCalculator() {
 		this.fixedFee = fixedFee;
@@ -14,6 +17,8 @@ class RoomChargeCalculator {
 		this.tv = tv;
 		this.kitchen = kitchen;
 		this.wifi = wifi;
+		this.garden = garden;
+		this.ac = ac;
 	}
 
 	public void getChargeDeluxDouble(boolean balcony,boolean parking,boolean tv,boolean kitchen,boolean wifi) {
