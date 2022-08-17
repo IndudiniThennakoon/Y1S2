@@ -33,6 +33,9 @@ class RandNum {
                 if (arr[i][j] > maxVal) {
                     maxVal = arr[i][j];
                 }
+                if (arr[i][j] < minVal) {
+                    minVal = arr[i][j];
+                }
 
             }
         }
