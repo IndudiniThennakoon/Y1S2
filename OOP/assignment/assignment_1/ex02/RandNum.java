@@ -21,6 +21,7 @@ class RandNum {
         }
         System.out.print(" ]");
 
+        calculate();
     }
 
     public void calculate() {
@@ -38,6 +39,7 @@ class RandNum {
                 }
                 sum += arr[i][j];
                 avgVal = sum / 25;
+
             }
         }
 
