@@ -27,7 +27,7 @@ class RandNum {
 
         int maxVal = arr[0][0];
         int minVal = arr[0][0];
-
+        double sum = 0.0, avgVal = 0.0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 if (arr[i][j] > maxVal) {
@@ -36,7 +36,8 @@ class RandNum {
                 if (arr[i][j] < minVal) {
                     minVal = arr[i][j];
                 }
-
+                sum += arr[i][j];
+                avgVal = sum / 25;
             }
         }
 
