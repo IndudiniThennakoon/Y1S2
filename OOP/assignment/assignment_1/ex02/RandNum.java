@@ -25,6 +25,7 @@ class RandNum {
 
     public void calculate() {
 
+        int maxVal = arr[0][0];
 
     }
 }
