@@ -48,4 +48,8 @@ class RandNum {
         }
 
     }
+
+    public void display() {
+
+    }
 }
