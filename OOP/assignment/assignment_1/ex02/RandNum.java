@@ -51,5 +51,9 @@ class RandNum {
 
     public void display(int maxVal, int minVal,int sumVal, double avgVal) {
 
+        int max = maxVal;
+        int min = minVal;
+        int sum = sumVal;
+        double avg = avgVal;
     }
 }
