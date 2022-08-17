@@ -46,7 +46,7 @@ class RandNum {
                 System.out.println("AVG value is : " + avgVal);
             }
         }
-
+        display(maxVal,minVal,(int) sum,avgVal);
     }
 
     public void display(int maxVal, int minVal,int sumVal, double avgVal) {
