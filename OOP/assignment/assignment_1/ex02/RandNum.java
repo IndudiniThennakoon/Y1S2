@@ -9,6 +9,10 @@ class RandNum {
     public RandNum() {
     }
 
+    public void random() {
+
+    }
+
 
 
 }
