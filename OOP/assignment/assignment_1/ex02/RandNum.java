@@ -40,6 +40,10 @@ class RandNum {
                 sum += arr[i][j];
                 avgVal = sum / 25;
 
+                System.out.println("\nMax value is : " + maxVal);
+                System.out.println("Min value is : " + minVal);
+                System.out.println("Total value is : " + sum);
+                System.out.println("AVG value is : " + avgVal);
             }
         }
 
