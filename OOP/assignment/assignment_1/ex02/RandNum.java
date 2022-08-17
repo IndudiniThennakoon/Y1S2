@@ -49,7 +49,7 @@ class RandNum {
 
     }
 
-    public void display() {
+    public void display(int maxVal, int minVal,int sumVal, double avgVal) {
 
     }
 }
