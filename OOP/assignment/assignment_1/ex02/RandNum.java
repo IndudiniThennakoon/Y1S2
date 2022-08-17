@@ -11,16 +11,11 @@ class RandNum {
 
     public void random() {
         int range = max - min + 1;
-        System.out.println("[");
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("[ ");
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j] + " "  );
+                arr[i][j] = (int) ((Math.random() * range) + min);
             }
-            System.out.println(" ]");
         }
-        System.out.print(" ]");
-
         calculate();
     }
 
@@ -55,5 +50,21 @@ class RandNum {
         int min = minVal;
         int sum = sumVal;
         double avg = avgVal;
+
+        // print array values
+
+        System.out.println("Array Values: \n");
+        System.out.println("[");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("[ ");
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(" %-3d "+arr[i][j]  );
+            }
+            System.out.println(" ]");
+        }
+        System.out.println(" ]");
+
+
+
     }
 }
