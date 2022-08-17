@@ -20,8 +20,11 @@ class RandNum {
             System.out.println(" ]");
         }
         System.out.print(" ]");
+
     }
 
+    public void calculate() {
 
 
+    }
 }
