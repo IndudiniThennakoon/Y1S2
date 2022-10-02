@@ -1,8 +1,15 @@
 package OOP.lab;
 
-import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
 
-import java.sql.SQLOutput;
+//        Exercise 2 (Time: 10 minutes)
+//        Write a program to get the following output.
+//        ==================================
+//        = Student Information                 =
+//        ==================================
+//        = Name : ARDP Ranasignhe               =
+//        = Reg No : DIS\08\M4\1234              =
+//        = Address : Malabe                     =
+//        ==================================
 
 public class EX2 {
     public static void main(String[] args) {
