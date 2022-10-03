@@ -16,16 +16,14 @@ public class StaticMemberMain {
         // It will be sotred in a seperate location
 
         StaticMember ob  = new StaticMember();
-        ob.name = "indu";
-        ob.batchID = "SE";
-        System.out.println(ob.name); // print name as "indu"
-        System.out.println(ob.batchID); // print batchID as "SE"
+        ob.setName = "indu";
+        ob.setBatchID = "SE";
+        System.out.println(ob.getName); // print name as "indu"
+        System.out.println(ob.getBatchID); // print batchID as "SE"
 
         StaticMember ob1  = new StaticMember();
-        System.out.println(ob.name); // print name as "null" - default constructor
-        System.out.println(ob.batchID); // print batchID as "SE" - this is a static attribute so its does not belong to the object
-
-
+        System.out.println(ob.getName); // print name as "null" - default constructor
+        System.out.println(ob.getBatchID); // print batchID as "SE" - this is a static attribute so its does not belong to the object
 
     }
 

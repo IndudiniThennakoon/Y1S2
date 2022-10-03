@@ -16,13 +16,13 @@ public class StaticMember {
         StaticMember.batchID = batchID;
     }
     public String getName() {
-        return name;
+        return this.name;
     }
     public int getAge() {
-        return age;
+        return this.name;;
     }
     public static String getBatchID() {
-        return batchID;
+        return this.name;;
     }
 
 
