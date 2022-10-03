@@ -15,6 +15,13 @@ public class StaticMemberMain {
         // Static attributes are not belong to the objects
         // It will be sotred in a seperate location
 
+        StaticMember ob  = new StaticMember();
+        ob.name = "indu";
+        ob.batchID = "SE";
+        System.out.println(ob.name); // print name as "indu"
+        System.out.println(ob.batchID); // print batchID as "SE"
+
+
 
     }
 
