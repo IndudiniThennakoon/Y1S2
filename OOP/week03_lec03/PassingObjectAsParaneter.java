@@ -11,5 +11,10 @@ public class PassingObjectAsParaneter {
         System.out.println("number : " +x);
 
     }
+
+    public void show(PassingObjectAsParameter ref){
+        System.out.println("number : " + x); // print x
+
+    }
 }
 
