@@ -19,10 +19,10 @@ public class StaticMember {
         return this.name;
     }
     public int getAge() {
-        return this.name;;
+        return this.age;
     }
     public static String getBatchID() {
-        return this.name;;
+        return batchID;;
     }
 
 
