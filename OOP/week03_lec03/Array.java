@@ -20,5 +20,10 @@ public class Array {
         // create and assign values in array way 3
         int arr3[] = {89,5,12};
 
+
+        // replace array values
+
+        arr3[2] = 69;
+
     }
 }
