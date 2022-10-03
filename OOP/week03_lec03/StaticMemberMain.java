@@ -21,6 +21,10 @@ public class StaticMemberMain {
         System.out.println(ob.name); // print name as "indu"
         System.out.println(ob.batchID); // print batchID as "SE"
 
+        StaticMember ob1  = new StaticMember();
+        System.out.println(ob.name); // print name as "null" - default constructor
+        System.out.println(ob.batchID); // print batchID as "SE" - this is a static attribute so its does not belong to the object
+
 
 
     }
