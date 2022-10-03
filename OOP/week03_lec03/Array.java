@@ -17,7 +17,8 @@ public class Array {
         int arr2[7];
         int arr2[55];
 
-
+        // create and assign values in array way 3
+        int arr3[] = {89,5,12};
 
     }
 }
