@@ -11,6 +11,16 @@ class StaticDemo {
         System.out.println("A : " + a);
         System.out.println("b : " + b);
 
+        statict{
+            // this is a static block. since this is not a method this will be  executed
+            System.out.println("Static block intialized");
+            b = a * 4;
+        }
+
+        public static void main(String[] args) {
+            meth(42);
+        }
+
     }
 
 }
