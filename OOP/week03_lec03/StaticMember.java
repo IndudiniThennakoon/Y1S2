@@ -13,7 +13,7 @@ public class StaticMember {
         this.age = age;
     }
     public static void setBatchID(String batchID) {
-        StaticMember.batchID = batchID;
+       batchID = batchID;
     }
     public String getName() {
         return this.name;
