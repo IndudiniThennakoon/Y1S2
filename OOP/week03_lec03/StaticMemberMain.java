@@ -10,6 +10,11 @@ public class StaticMemberMain {
         // static varibles are donot belongs to an indivial objects. common to all the instances
 
 
+        // all other attributes are created inside of the object
+        // but batchID is not created inside the same object because its STATIC
+        // Static attributes are not belong to the objects
+        // It will be sotred in a seperate location
+
 
     }
 
