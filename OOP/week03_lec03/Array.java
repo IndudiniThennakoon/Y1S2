@@ -25,5 +25,12 @@ public class Array {
 
         arr3[2] = 69;
 
+        // display array values
+        System.out.println("Array values are :");
+        for (int i = 0; i <=2; i++){
+            System.out.println(arr3[i]);
+
+        }
+
     }
 }
