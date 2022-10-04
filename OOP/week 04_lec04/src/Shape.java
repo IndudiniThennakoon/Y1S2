@@ -1,6 +1,6 @@
 public abstract class Shape {
     public void show(){
-
+        // this is a non-abstract method (concrete method)
     }
 
     // we can not define area for a shape because there is no any function to
