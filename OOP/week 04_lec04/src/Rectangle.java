@@ -11,4 +11,9 @@ public class Rectangle extends Shape {
         return this.height * this.width;
     }
 
+    @Override
+    public int getPerimeter(int x) {
+        return 25;
+    }
+
 }

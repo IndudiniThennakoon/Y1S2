@@ -22,4 +22,6 @@ public abstract class Shape {
 
     abstract public int getPerimeter(int x);
     // when we create another abstract method we will get an error in child classes( Rectangle class)
+    // since this getPerimeter method is not override in child class
+
 }
