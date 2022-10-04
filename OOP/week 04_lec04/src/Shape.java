@@ -1,4 +1,4 @@
-public class Shape {
+public abstract class Shape {
     public void show(){
 
     }
@@ -16,5 +16,8 @@ public class Shape {
 
     abstract public int getArea(); // if we want we can add parameters also
 
+    // even we added abstract key word we get an error
+    // There is a rule if a class contain at least one abstract method
+    // that class should be defined as an abstract
 
 }
