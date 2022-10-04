@@ -3,8 +3,8 @@ public abstract class Shape {
         // this is a non-abstract method (concrete method)
     }
 
-    // we can not define area for a shape because there is no any function to
-    // to calculate the area of a class. So in here getArea(
+    // we can not define area for a shape because there is no any function
+    // to calculate the area of a class. So in here getArea()
     // method does not have a return type.
 
     // In java if we do nit find a particular implementation
