@@ -1,3 +1,5 @@
+package abstracts;
+
 public abstract class Shape {
     public void show(){
         // this is a non-abstract method (concrete method)

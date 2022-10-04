@@ -1,3 +1,5 @@
+package abstracts;
+
 public class AbstractMain {
     public static void main(String[] args) {
         //Shape ob = new Shape(); -wrong (getting error)
