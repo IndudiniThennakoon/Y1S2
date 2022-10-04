@@ -7,6 +7,7 @@ public class ArithmeticExceptionExample {
         {
             System.out.println("cannot divide by zero");
         }finally{
+            System.out.println("finally block is always executed");
             System.out.println("hi");
         }
     }
