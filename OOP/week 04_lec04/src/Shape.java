@@ -20,4 +20,6 @@ public abstract class Shape {
     // There is a rule if a class contain at least one abstract method
     // that class should be defined as an abstract
 
+    abstract public int getPerimeter(int x);
+    // when we create another abstract method we will get an error in child classes( Rectangle class)
 }
