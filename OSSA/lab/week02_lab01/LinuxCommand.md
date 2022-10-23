@@ -71,7 +71,8 @@
 3. x --> execute permission <br>
    
 <br>
-
+If we have dash line (**-**) in file access permision, we won't give the permission
+<br>
 
 **File Access permission related to 3 users**<br>
  
