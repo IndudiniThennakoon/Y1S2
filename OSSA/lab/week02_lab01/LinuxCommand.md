@@ -37,7 +37,7 @@
 
 | Number | Indications |
 |------- | --- |
-| 1 | File access permissions |
+| 1 |File type and File access permissions |
 | 2 | User name |
 | 3 | Root name |
 | 4 | Ouput block size |
@@ -48,7 +48,7 @@
 
 <br><br>
 
-## 1 - File Access Permissions
+## 1 - File Typa and File Access Permissions
 
 <br>
 
@@ -58,7 +58,7 @@
 
 | Number | Indications |
 |------- | --- |
-| 1 | **d** --> Directory <br> **s** --> Soccut <br> **-** --> Regular File|
+| 1 | **d** --> Directory <br> **s** --> Soccut File <br> **-** --> Regular File <br> **b** --> Block Special File <br> **c** --> Character Special File <br> **l** --> link file or Symbolic File|
 | 2 | This first 3 is for the **user**  |
 | 3 | Second 3 is for the **group** |
 | 4 | Last 3 for the the **other users**|
